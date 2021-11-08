@@ -4,4 +4,10 @@ body {
 
 header {
     font-family: Helvetica, arial, sans-serif;
+    height: 20vh;
+    background-color: white;
+}
+
+nav {
+    background-color: black;
 }
