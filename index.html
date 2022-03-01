@@ -5,55 +5,213 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Playstation</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header>
-        <div class="up-logo">
-            <img src="img/sony_logo.svg" alt="">
+
+        <!-- Header top logo -->
+        <div class="header-top">
+            <img class="logo" src="img/sony_logo.svg" alt="Sony Logo">
         </div>
 
+        <!-- Nav -->
         <nav>
-            
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Logo -->
+                    <div class="col-1">
+                        <div class="logo-container">
+                            <img class="logo" src="img/play_logo.svg" alt="Playstation Logo">
+                        </div>
+                    </div>
+                    <!-- Menus -->
+                    <div class="col-7">
+                        <div class="menu-container d-none d-lg-block">
+                            <ul>
+                                <li class="menu-item">
+                                    Giochi<i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li class="menu-item">
+                                    Hardware<i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li class="menu-item">
+                                    Servizi<i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li class="menu-item">
+                                    Novità<i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li class="menu-item">
+                                    Fai Acquisti<i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li class="menu-item">
+                                    Supporto<i class="fas fa-chevron-down"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="menu-container d-none d-lg-block">
+                            <ul class="menu-right">
+                                <li class="menu-item">
+                                    My Playstation<i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="btn ms_btn btn_grey">Accedi</a>
+                                </li>
+                                <li class="menu-item">
+                                    <img class="lens" src="img/lens.svg" alt="Lens">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="burger d-md-flex d-lg-none">
+                            <div class="burger-wrapper">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
+
     </header>
+    <!-- END HEADER -->
 
+    <!-- MAIN -->
     <main>
-        <section class="">
-
+        <section id="jumbotron">
+            <div class="container">
+                <div class="jumbotron-content">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <div class="call-to-action">
+                                <img src="img/returnal-hero-banner-logo.png" alt="Returnal Logo">
+                                <h2>Rompi il cerchio</h2>
+                                <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                                <a class="btn btn_red rounded-pill" href="#">Acquista ora</a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="">
-
+        <!-- Gallery -->
+        <section id="gallery">
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+                    <div class="col">
+                        <div class="img-frame blue-frame">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img-frame">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet and Clank">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img-frame">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img-frame">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet and Clank">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img-frame">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img-frame">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet and Clank">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="">
-
+        <!-- No limits -->
+        <section id="no-limits">
+            <div class="container">
+                <div class="no-limits-content">
+                    <p class="blue-text">Play has no limits</p>
+                    <h2>Ecco la Playstation 5</h2>
+                    <p class="subheading">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                </div>
+            </div>
         </section>
 
-        <section class="">
+        <section id="console">
+            <div class="container">
+                <div class="row row-cols-sm-1 row-cols-md-2">
+                    <div class="col-md-5">
+                        <div class="console-heading">
+                            <h2>Console Playstation 5</h2>
+                            <p class="subheading">Sperimenta la nuova generazione di incredibili giochi Playstation.</p>
+                            <a href="#" class="btn btn_blue rounded-pill">Maggiori informazioni</a>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="console-pic">
+                            <img src="img/playstation-5-thumb.png" alt="Playstation 5">
+                        </div>
+                    </div>
+                </div>
 
-        </section>
-
-        <section class="">
-
-        </section>
-
-        <section class="">
-
-        </section>
-
-        <section class="">
-
-        </section>
-
-        <section class="">
-
+                <!-- Gallery -->
+                <div class="console-gallery">
+                    <div class="row row-cols-sm-3 row-cols-md-5">
+                        <div class="col">
+                            <div class="gallery-item selected">
+                                <img src="img/playstation-5-thumb.png" alt="Playstation 5">
+                                <div class="item-text">Console PS5</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="gallery-item">
+                                <img src="img/joypad-thumb.png" alt="Controller Wireless">
+                                <div class="item-text">Controller Wireless DualSense&trade;</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="gallery-item">
+                                <img src="img/headset-thumb.png" alt="Headset">
+                                <div class="item-text">Cuffie wireless con microfono PULSE 3&trade;</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="gallery-item">
+                                <img src="img/remote-thumb.png" alt="Remote">
+                                <div class="item-text">Telecomando Media</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="gallery-item">
+                                <img src="img/camera-thumb.jpg" alt="Camera">
+                                <div class="item-text">Telecamera HD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <!-- END MAIN -->
 
+    <!-- FOOTER -->
     <footer>
 
     </footer>
+    <!-- END FOOTER -->
 </body>
 </html>
