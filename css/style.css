@@ -7,7 +7,7 @@
 
 /* Commons */
 h1, h2, h3, h4, h5, h6, p {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 body {
@@ -134,8 +134,11 @@ nav .menu-item i {
 }
 
 .call-to-action {
-    margin-top: 40%;
     color: white;
+}
+
+#jumbotron .call-to-action {
+    padding-top: 280px;
 }
 
 .call-to-action img {
@@ -224,6 +227,10 @@ nav .menu-item i {
     border-bottom: 2px solid #0072ce;
 }
 
+.gallery-item {
+    margin: 0 15px;
+}
+
 .gallery-item .item-text {
     font-weight: bold;
 }
@@ -233,6 +240,152 @@ nav .menu-item i {
         display: none;
     }
  }
+
+ #takes-two {
+     padding: 30px 0;
+     height: 690px;
+     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+/* New */
+#new {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 30px 0;
+}
+
+.new-heading h3 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.new-heading h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.game-item {
+    margin-bottom: 40px;
+}
+
+.game-item .game-art {
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.game-item h4 {
+    font-size: 16px;
+}
+
+/* Explore */
+#explore {
+    padding: 50px 0;
+}
+
+#explore .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#explore .heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#explore .heading .subheading {
+    font-weight: 500;
+}
+
+.explore-cards h3 {
+    font-size: 35px;
+}
+
+/* Playstation Plus */
+#playstation-plus {
+    background-color: #bebcbb;
+}
+
+#playstation-plus .play-plus-content {
+    padding: 20px 0;
+}
+
+.play-plus-content .ps-plus-logo {
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.play-plus-content p {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    #playstation-plus .play-plus-content {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #playstation-plus .play-plus-content {
+        padding: 70px 0;
+    }
+}
+
+/* Discount */
+#discount {
+    padding: 60px 0;
+}
+
+#discount .heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#discount .heading h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.discount-images .image-wrapper {
+    margin-bottom: 30px;
+}
+
+/* Playstation now */
+#playstation-now {
+    background-color: #161c3b;
+    color: white;
+}
+
+#playstation-now .play-now-content {
+    padding: 20px 0;
+}
+
+.play-now-content .ps-plus-logo {
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.play-now-content p {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    #playstation-now .play-now-content {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #playstation-now .play-now-content {
+        padding: 70px 0;
+    }
+}
 
 /* Buttons */
 .ms_btn {
@@ -246,9 +399,22 @@ nav .menu-item i {
     color: white;
 }
 
+.btn_grey_blue {
+    background-color: #d9dadc;
+    color: #3167e5;
+    font-weight: bold;
+}
+
 .btn_red {
     background-color: #cd3d0f;
     color: white;
+    font-weight: bold;
+}
+
+.btn_white {
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
 
 .btn_blue {
