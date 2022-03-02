@@ -305,37 +305,6 @@ nav .menu-item i {
     font-size: 35px;
 }
 
-/* Playstation Plus */
-#playstation-plus {
-    background-color: #bebcbb;
-}
-
-#playstation-plus .play-plus-content {
-    padding: 20px 0;
-}
-
-.play-plus-content .ps-plus-logo {
-    width: 65%;
-    margin-bottom: 20px;
-}
-
-.play-plus-content p {
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-@media screen and (min-width: 992px) {
-    #playstation-plus .play-plus-content {
-        padding: 50px 0;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    #playstation-plus .play-plus-content {
-        padding: 70px 0;
-    }
-}
-
 /* Discount */
 #discount {
     padding: 60px 0;
@@ -385,6 +354,108 @@ nav .menu-item i {
     #playstation-now .play-now-content {
         padding: 70px 0;
     }
+}
+
+/* Playstation Plus */
+#playstation-plus {
+    background-color: #bebcbb;
+}
+
+#playstation-plus .play-plus-content {
+    padding: 20px 0;
+}
+
+.play-plus-content .ps-plus-logo {
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.play-plus-content p {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    #playstation-plus .play-plus-content {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #playstation-plus .play-plus-content {
+        padding: 70px 0;
+    }
+}
+
+/* Social */
+#social {
+    padding: 50px 0;
+}
+
+#social .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#social .heading h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#social img {
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+    padding: 50px 0;
+    background-color: #00439c;
+    color: white;
+}
+
+footer .footer-ps-logo {
+    margin-bottom: 35px;
+}
+
+footer .footer-ps-logo img {
+    width: 90px;
+}
+
+.region, .footer-links, .copyright {
+    font-size: 14px;
+}
+
+.region, .footer-links {
+    margin-bottom: 30px;
+}
+
+.region i {
+    padding-right: 5px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+.copyright img {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.copyright a {
+    color: white;
 }
 
 /* Buttons */
